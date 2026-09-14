@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BME Learning Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">BME <span>Learning Hub</span></div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="tagline">BIOMEDICAL ENGINEERING</p>
+      <h1>Learn. Explore. Innovate.</h1>
+      <p>
+        Welcome to BME Learning Hub — your beginner-friendly
+        platform to explore Biomedical Engineering concepts,
+        medical instruments, and exciting technologies.
+      </p>
+
+      <a href="#topics" class="btn">Start Learning</a>
+    </div>
+
+    <div class="hero-image">
+      <div class="medical-icon">🫀</div>
+      <div class="medical-icon">⚕️</div>
+      <div class="medical-icon">🧬</div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About BME Learning Hub</h2>
+    <p>
+      Biomedical Engineering combines engineering, biology,
+      and medicine to develop technologies that improve
+      healthcare and save lives.
+    </p>
+  </section>
+
+  <!-- Learning Topics -->
+  <section id="topics" class="topics">
+    <h2>Explore Our Learning Areas</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="card-icon">📚</div>
+        <h3>BME Subjects</h3>
+        <p>
+          Learn anatomy, physiology, biomedical electronics,
+          biomaterials, and more.
+        </p>
+        <a href="subjects.html">Explore Subjects →</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🩺</div>
+        <h3>Medical Instruments</h3>
+        <p>
+          Discover how ECG, MRI, ultrasound, and other
+          medical devices work.
+        </p>
+        <a href="instruments.html">View Instruments →</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📝</div>
+        <h3>MCQ Quiz</h3>
+        <p>
+          Test your biomedical engineering knowledge with
+          interesting multiple-choice questions.
+        </p>
+        <a href="quiz.html">Take Quiz →</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📖</div>
+        <h3>Study Materials</h3>
+        <p>
+          Find helpful notes, resources, and learning
+          materials for your BME studies.
+        </p>
+        <a href="materials.html">Study Now →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <h3>BME Learning Hub</h3>
+    <p>Engineering for a Healthier Tomorrow.</p>
+    <p>© 2026 BME Learning Hub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
