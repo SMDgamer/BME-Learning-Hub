@@ -1,0 +1,10 @@
+
+console.log("Welcome to BME Learning Hub!");
+
+const startButton = document.querySelector(".btn");
+
+if (startButton) {
+  startButton.addEventListener("click", function () {
+    console.log("Welcome! Let's start learning BME.");
+  });
+}
